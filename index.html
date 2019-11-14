@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Chenhan Yuan</title>
+    <link rel="shortcut icon" href="assets/images/yicon.jpg" type="image/Y">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/photo.jpg" onload="loading()">
+                </section>
+
+                <h1 class="name">Chenhan Yuan</h1>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>Contact Information</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>Email: </label>
+                        <span>chris.yuan.ece@gmail.com</span>
+                    </li>
+                </ul>
+                <a href="https://github.com/chenhan97"> <img src="https://github.com/fluidicon.png" width="30px"/> </a>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="news update">
+                <h2>NEWS</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3><span><p style="font-family:Times New Roman; font-size:120%"><font color="red">Looking For PhD Position: </font></span></h3>
+                        <p style="font-family:Times New Roman; font-size:120%">I'm looking for any PhD or MS (with thesis option) student position related to my previous experience. Please feel free to contact me :)
+                    </li>
+		    <li>
+                        <h3><span>10/21/2019: </span></h3>
+                        <p style="font-family:Times New Roman; font-size:120%">One paper submitted to ICASSP 2020
+                    </li>
+		    <li>
+                        <h3><span>10/09/2019: </span></h3>
+                        <p style="font-family:Times New Roman; font-size:120%">One paper accepted by CCNLG workshop in INLG 2019
+                    </li>
+		    <li>
+                        <h3><span>02/11/2019: </span></h3>
+                        <p style="font-family:Times New Roman; font-size:120%">One paper accepted by CICLing 2019
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+
+        <section class="main">
+            <p style="font-family:Times New Roman; font-size:120%">  My previous research focus on Natural Language Processing (NLP) and Deep Learning, especially GAN. My current projects are related to GAN's application 
+            on voice conversion and NLP for education knowledge, such as knowledge graph and information extraction.</p>
+            <p style="font-family:Times New Roman; font-size:120%"> I received my BS degree in Electronic Information Science and Technology (similar to Electronic Engineering) from <a href="https://en.uestc.edu.cn/">University
+            of Electronic Science and Technology of China</a>. During the first half of 2018, I was an exchange student majoring in Computer Science at <a href="http://en.fcu.edu.tw/wSite/mp?mp=3">Feng Chia 
+            University</a>.</p> 
+            <p style="font-family:Times New Roman; font-size:120%"> (Check my <a href="https://chenhan97.github.io/Academic_CV.pdf"> CV </a> here) </p>
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>BS in Electronic Information Science and Technology - University of Electronic Science and Technology of China</span>
+                            <time>2015-2019</time>
+                        </h3>
+                        <p>GPA
+                            <mark>3.9/4.0</mark> </p>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>Exchange Student in Computer Science - Feng Chia University</span>
+                            <time>2018.2-2018.7</time>
+                        </h3>
+                        <p>GPA
+                            <mark>4.0/4.0</mark> </p>
+                    </li>
+                </ul>
+            </section>
+           
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>Projects</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>Specified Text Generation </span>
+			    
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                <p style="font-family:Times New Roman; font-size:120%">Part 1: Few users can write a large number of articles in their lives, which makes it difficult to train a deep learning-based personalized text 
+				generation model. To addresss this issue, we propose a personalized text generation model, called PersonGAN. 
+			        PersonGAN can use large-scale corpus to learn syntactic and grammer while extracting personalized features from the user's articles (small-scale).</p>
+				<p style="font-family:Times New Roman; font-size:120%">Part2: When text generation model works, users cannot change some pre-settings, such as sentimental tendency and topic of generated text, because GAN-based models need to
+				be re-trained when pre-settings are changed, which is very time-consuming. We propose UD-GAN to divide the training process into two parts. The user 
+				only need to train the time-consuming part once and he/she can re-train the other part when the pre-setting is changed with fast speed.</p>
+                            </li>
+			    <li><p style="font-family:Times New Roman; font-size:120%">Tools used in this project: Tensorflow, Pytorch, NLTK, gensim, StanfordCoreNLP in Java</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>GAN for voice conversion</span>
+                        </h3>
+                        <ul class="info-content">
+                            <li><p style="font-family:Times New Roman; font-size:120%">Working On</li>
+                            <li>
+                              <p style="font-family:Times New Roman; font-size:120%">It is not hard to convert text to voice if researchers receive enough aligned text and voice data. However, it is difficult 
+			      to build a TTS model when the voice data from one person is limited. We propose a GAN-based approach to train a perfect TTS model based on 
+		              enough data first and then to transfer this model to apply to the insufficient data scenario.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span> Ballistic Solution and Damage Performance Calculation Software Based on VC++</span>
+                        </h3>
+                        <ul class="info-content">
+                            <li><p style="font-family:Times New Roman; font-size:120%">Bachelor Thesis</li>
+                            <li>
+		           <p style="font-family:Times New Roman; font-size:120%">This project attempts to develop a robust and user-friendly interface function for industrial ballistic equations 
+		            and hit probability simulation software, which could run stablely on any platform. 
+		            In addition, this project expands the novel epistemic uncertainty calculation method, and then obtains the solution method of the upper and lower bounds of the projectile hit probability. 
+		 Experiments on time-consuming and accuracy tasks show that the program can solve related tasks efficiently and quickly while maintaining high accuracy.
+                            </li>
+			   <span class="link">
+                               <a href="https://github.com/chenhan97/SomeProjects/tree/master/graduate%20project" target="_blank">Code</a>
+                           </span>
+                        </ul>
+                    </li>
+		    <li>
+                        <h3>
+                            <span>The Latent Representation of Mental Model from Text</span>
+                        </h3>
+                        <ul class="info-content">
+                            <li><p style="font-family:Times New Roman; font-size:120%">Working On</li>
+                            <li>
+		            <p style="font-family:Times New Roman; font-size:120%">The related text, such as interviews, published articles, can reflect one's mental model. In this research project, we 
+		            are trying to find a feasible way to represent one's mental model and the knowledge about this person is from the text. 
+		            Semantic hypergraph and other proper NLP approaches is used to extract information from interview text and find the latent mental model representation of the interviewee.
+		            Related approaches: knowledge extraction and graph, topic modeling, sentiment analysis
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+            <section class="publication">
+               <h2>
+                   <i class="fa fa-pencil" aria-hidden="true"></i>Publication</h2>
+               <hr/>
+               <ul>
+                   <li>
+                       <h4>
+                           <span><p style="font-family:Times New Roman; font-size:120%">Personalized sentence generation using generative adversarial networks with author-specific word usage</p></span>
+                           <span class="link">
+                               <a href="https://arxiv.org/pdf/1904.09442.pdf" target="_blank">PDF</a>; <a href="https://github.com/chenhan97/PersonGAN" target="_blank">Code</a>
+                           </span>
+                       </h4>
+                       <p> <b> Chenhan Yuan </b>and Yi-Chin Huang </p> 
+                       <p style="font-family:Times New Roman; font-size:120%"> <i> The 20th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing) </i> </p>
+                       <p style="font-family:Times New Roman; font-size:120%"> La Rochelle, France, April, 2019 </p>
+                   </li>
+                   <li>
+                       <h4>
+                           <span><p style="font-family:Times New Roman; font-size:120%">Efficient text generation of user-defined topic using generative adversarial networks</p></span>
+			   <span class="link">
+                               <a href="https://github.com/chenhan97/UDGAN" target="_blank">Code</a>
+                           </span>
+                       </h4>
+                       <p> <b> Chenhan Yuan </b>, Yi-Chin Huang and Cheng-Hung Tsai</p> 
+                       <p style="font-family:Times New Roman; font-size:120%"> <i> INLG 2019 Workshop on Computational Creativity in Natural Language Generation (CCNLG Workshop in INLG 2019) </i> </p>
+		       <p style="font-family:Times New Roman; font-size:120%"> Tokyo, Japan, November, 2019
+		       <h4>
+                           <span><p style="font-family:Times New Roman; font-size:120%">END-TO-END Personalized Speech Synthesis in Mandarin</p></span>
+                       </h4>
+		       <p> <b> Chenhan Yuan </b> and Yi-Chin Huang</p>
+		       <p style="font-family:Times New Roman; font-size:120%"><i> Submitted to ICASSP 2020 </i> </p>
+			       
+                   </li>
+                </ul>
+        </section>
+	<section class="honors">
+               <h2>
+                   Honors</h2>
+               <hr/>
+               <ul>
+		       <li><p style="font-family:Times New Roman; font-size:120%">2019 Outstanding graduate student award <b>(summa cum laude)</b></li>
+		       <li><p style="font-family:Times New Roman; font-size:120%">2018 Scholarship for exchange student <b>(2 recipients in the year in my department)</b></li>
+                   <li>
+                     <p style="font-family:Times New Roman; font-size:120%">2017 Top-class Award of People’s Scholarship in China <b>(rate: 0.9%) </b></li>
+                     
+                     <li><p style="font-family:Times New Roman; font-size:120%">2016 Excellence Award of Community Immersion</li>
+                   </li>
+                </ul>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>© 2019 Chenhan Yuan.Last update:
+            <time>10/21/2019</time>.</p>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
