@@ -29,7 +29,7 @@ body {
  * 主体部分
  * ------------------------------------------------- */
 div#cv_main {
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,1);
 	/*margin: 50px auto 30px auto;*/
 	text-align:left;
 	width: 100%;
@@ -39,7 +39,7 @@ div#cv_main {
 }
 
 div#cv_main ul#nav{
-	background-color:rgba(0,0,0,0.6);
+	background-color:rgba(0,0,0,1);
 	color:#000;
 	height:32px;
 	font-family: Helvetica, Arial, sans-serif;
