@@ -30,10 +30,11 @@ body {
  * ------------------------------------------------- */
 div#cv_main {
 	background-color: rgba(255,255,255,0.6);
-	margin: 50px auto 30px auto;
+	/*margin: 50px auto 30px auto;*/
 	text-align:left;
-	width:57.69em;
-	*width:56.25em;
+	width: 100%;
+  	overflow-x: hidden;
+  	padding: 1rem 10%;
 	position:relative;
 }
 
@@ -42,9 +43,7 @@ div#cv_main ul#nav{
 	color:#000;
 	height:32px;
 	font-family: Helvetica, Arial, sans-serif;
-	width: 100%;
-  	overflow-x: hidden;
-  	padding: 1rem 10%;
+	
 }
 
 div#cv_main ul#nav li{
