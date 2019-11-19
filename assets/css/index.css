@@ -34,6 +34,7 @@ div#cv_main {
 	/*margin: 50px auto 30px auto;*/
 	border-color: #00b6f0;
 	border-width: 0 0 2px;
+	position: fixed;
 	text-align:left;
 	width: 100%;
   	overflow-x: hidden;
