@@ -73,7 +73,7 @@ div#cv_main ul#nav li a:hover{
 .container .side {
   position: absolute;
   width: 20rem;
-  background: #F6F6F6;
+  background: #fff;
   border-radius: 5px;
   box-sizing: border-box;
   padding: 1rem; }
