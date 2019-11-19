@@ -44,7 +44,13 @@ div#cv_main {
   	box-sizing: border-box;
 	position:relative;
 }
-
+.navbar-default {
+	border-color: #00b6f0;
+}	
+.navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 2px;
+}
 div#cv_main ul#nav{
 	background-color:rgba(0,0,0,1);
 	color:#000;
