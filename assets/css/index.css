@@ -52,6 +52,10 @@ h1 {
   font-family:Times New Roman; 
   font-size:120%;
 }
+.border-left {
+    border-left: 1px solid #ddd;
+    padding-left: 8px;
+}
 .navbar-fixed-top {
         top: 0;
         border-width: 0 0 2px;
