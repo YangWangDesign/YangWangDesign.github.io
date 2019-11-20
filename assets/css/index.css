@@ -48,15 +48,7 @@ div#cv_main {
 	border-color: #00b6f0;
 }
 h1 {
-    font-size: 16px;
-    /* color: #000; */
-    font-weight: bold;
-    margin: 18px 0px 8px 157px;
-    border-left: #a21f34 3px solid;
-    border-left-width: 3px;
-    border-left-style: solid;
-    border-left-color: rgb(162, 31, 52);
-    padding-left: 8px;
+  border-left: 5px solid red;
 }
 .navbar-fixed-top {
         top: 0;
