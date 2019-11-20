@@ -6,7 +6,7 @@ body {
   background: #e5e5e5 url(../../assets/images/background.png);
   width: 100%;
   overflow-x: hidden;
-  padding: 1rem 16%;
+  padding: 1rem 19%;
   padding-bottom: 0;
   box-sizing: border-box;
   font-size: .9em; }
@@ -156,7 +156,7 @@ div#cv_main ul#nav li a:hover{
     width: 60%; }
 .container .main {
   position: relative;
-  margin-left: 21rem;
+  margin-left: 19rem;
   background: #FFFFFF;
   border-radius: 0px;
   box-sizing: border-box;
