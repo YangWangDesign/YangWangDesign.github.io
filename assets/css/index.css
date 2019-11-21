@@ -47,9 +47,10 @@ div#cv_main {
 	border-color: #00b6f0;
 	border-width: 0 0 2px;
 }
-.navbar-fixed-top, .navbar-fixed-bottom {
+.navbar-fixed-top {
         position: fixed;
-	top:0;right:0;left:0;z-index:1030
+	top:0;right:0;left:0;z-index:1030;
+	border-width: 0 0 2px
 }
 .navbar {
 	border: 1px solid transparent;
@@ -63,10 +64,6 @@ h1 {
 .border-left {
     border-left: 1px solid #ddd;
     padding-left: 12px;
-}
-.navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 2px;
 }
 div#cv_main ul#nav{
 	background-color:rgba(0,0,0,1);
