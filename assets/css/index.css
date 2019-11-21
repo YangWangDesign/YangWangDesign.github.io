@@ -281,7 +281,7 @@ mark {
   .container .main .info-unit ul li h3 time {
     float: none;
     text-align: left; } }
-/*
+
 @media screen and (max-width: 1034px) {
   body {
     padding: 1rem 3%; } }
@@ -315,5 +315,5 @@ mark {
 
   aside {
     display: none; } }
-*/
+
 /*# sourceMappingURL=index.css.map */
