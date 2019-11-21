@@ -24,7 +24,18 @@ body {
 .header {
 	display: none;
    }
-
+.navbar-default {
+	border-color: #00b6f0;
+	border-width: 0 0 2px;
+}
+.navbar-fixed-top {
+        position: fixed;
+	top:0;right:0;left:0;z-index:1030;
+	border-width: 0 0 2px
+}
+.navbar {
+	border: 1px solid transparent;
+}
 /* -------------------------------------------------
  * 主体部分
  * ------------------------------------------------- */
@@ -43,18 +54,7 @@ div#cv_main {
   	box-sizing: border-box;
 	position:relative;
 }
-.navbar-default {
-	border-color: #00b6f0;
-	border-width: 0 0 2px;
-}
-.navbar-fixed-top {
-        position: fixed;
-	top:0;right:0;left:0;z-index:1030;
-	border-width: 0 0 2px
-}
-.navbar {
-	border: 1px solid transparent;
-}
+
 h1 {
   border-left: 3px solid #13294b;
   padding-left: 8px;
