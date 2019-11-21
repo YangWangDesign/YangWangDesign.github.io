@@ -45,6 +45,13 @@ div#cv_main {
 }
 .navbar-default {
 	border-color: #00b6f0;
+	border-width: 0 0 2px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+}
+.navbar {
+	border: 1px solid transparent;
 }
 h1 {
   border-left: 3px solid #13294b;
