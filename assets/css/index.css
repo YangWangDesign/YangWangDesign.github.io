@@ -284,6 +284,7 @@ mark {
 @media screen and (max-width: 1034px) {
   body {
     padding: 1rem 3%; } }
+/*
 @media screen and (max-width: 	750px) {
   .container .side {
     position: static;
@@ -313,5 +314,5 @@ mark {
 
   aside {
     display: none; } }
-
+*/
 /*# sourceMappingURL=index.css.map */
