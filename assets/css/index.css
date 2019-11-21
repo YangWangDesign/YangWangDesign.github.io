@@ -17,13 +17,27 @@ body {
       font-weight: 700; }
     body .info-unit h3 {
       font-weight: 300; }
-
+.navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+}
+.navbar {
+	border: 1px solid transparent;
+}
+.border-left {
+    border-left: 1px solid #ddd;
+    padding-left: 12px;
+}
+.navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 2px;
+}
 /* -------------------------------------------------
  * 头部部分
  * ------------------------------------------------- */
 .header {
 	display: none;
    }
+
 
 /* -------------------------------------------------
  * 主体部分
@@ -46,20 +60,7 @@ div#cv_main {
 	border-color: #00b6f0;
 	border-width: 0 0 2px;
 }
-.navbar-fixed-top, .navbar-fixed-bottom {
-        position: fixed;
-}
-.navbar {
-	border: 1px solid transparent;
-}
-.border-left {
-    border-left: 1px solid #ddd;
-    padding-left: 12px;
-}
-.navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 2px;
-}
+
 
 div#cv_main ul#nav{
 	background-color:rgba(0,0,0,1);
