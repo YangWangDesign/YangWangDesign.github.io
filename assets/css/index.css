@@ -41,7 +41,7 @@ div#cv_main {
 	padding-bottom: 0;
 	margin-right: .3em;
   	box-sizing: border-box;
-	position:relative;
+	position:relative;}
 	
 	.navbar-default {
 	border-color: #00b6f0;
@@ -54,7 +54,6 @@ div#cv_main {
 }
 .navbar {
 	border: 1px solid transparent;
-}
 }
 
 h1 {
