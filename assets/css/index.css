@@ -264,7 +264,7 @@ progress::-moz-progress-value {
 
 mark {
   background: rgba(232, 232, 232, 0.8); }
-/*
+
 @media screen and (max-width: 1169px) {
   .container .info-unit h3 span {
     display: block; }
@@ -281,6 +281,7 @@ mark {
   .container .main .info-unit ul li h3 time {
     float: none;
     text-align: left; } }
+/*
 @media screen and (max-width: 1034px) {
   body {
     padding: 1rem 3%; } }
