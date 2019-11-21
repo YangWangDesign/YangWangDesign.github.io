@@ -42,19 +42,16 @@ div#cv_main {
 	margin-right: .3em;
   	box-sizing: border-box;
 	position:relative;}
-	
 	.navbar-default {
 	border-color: #00b6f0;
 	border-width: 0 0 2px;
 }
-.navbar-fixed-top {
+.navbar-fixed-top, .navbar-fixed-bottom {
         position: fixed;
-	border-width: 0 0 2px
 }
 .navbar {
 	border: 1px solid transparent;
 }
-
 h1 {
   border-left: 3px solid #13294b;
   padding-left: 8px;
@@ -65,6 +62,11 @@ h1 {
     border-left: 1px solid #ddd;
     padding-left: 12px;
 }
+.navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 2px;
+}
+
 div#cv_main ul#nav{
 	background-color:rgba(0,0,0,1);
 	color:#000;
