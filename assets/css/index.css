@@ -83,13 +83,13 @@ div#cv_main ul#nav{
 
 div#cv_main ul#nav li{
 	float:left;
-	padding: 8px 27px;
+	padding: 8px 18px;
 	text-align:center;
-	width: 120px;
-	font-size:20px;
-	margin: 0px;   
-	margin-left: auto ;
-	margin-right: auto ;
+    /* width: 120px; */
+    /* font-size: 20px; */
+    	margin: 0px;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 
 div#cv_main ul#nav li a{
