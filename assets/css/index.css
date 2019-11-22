@@ -84,7 +84,7 @@ div#cv_main ul#nav{
 div#cv_main ul#nav li{
 	float:left;
 	text-align:center;
-	/*width: 140px;*/
+	width: 120px;
 	font-size:20px;
 	margin: 0px;
 }
