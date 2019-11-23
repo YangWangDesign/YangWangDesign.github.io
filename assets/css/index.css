@@ -288,20 +288,20 @@ mark {
     float: none;
     text-align: left; } }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1199px) {
   body {
     padding: 1rem 2%; } }
 
 @media screen and (max-width: 	750px) {
   .container .side {
     position: static;
-    width: 70%;
+    width: 95%;
     margin: 0 auto; }
 
   .container .main {
     position: static;
     margin-left: 0;
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 1.5rem; }
 
