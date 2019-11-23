@@ -288,7 +288,7 @@ mark {
     float: none;
     text-align: left; } }
 
-@media screen and (max-width: 1034px) {
+@media screen and (min-width: 1200px) {
   body {
     padding: 1rem 2%; } }
 
