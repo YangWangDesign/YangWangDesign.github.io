@@ -61,7 +61,6 @@ div#cv_main {
 	position: fixed;
 	text-align:left;
 	width: 100%;
-  	overflow-x: hidden;
   	padding: 0.6rem 5%;
 	margin-right: .3em;
   	box-sizing: border-box;
