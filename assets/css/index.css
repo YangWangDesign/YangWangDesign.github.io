@@ -271,6 +271,10 @@ progress::-moz-progress-value {
 mark {
   background: rgba(232, 232, 232, 0.8); }
 
+  @media screen and (max-width: 1169px) {
+  .container .info-unit h3 span {
+    display: block; }
+	  
   .container .info-unit h3 span.link {
     display: inline; }
 
@@ -284,6 +288,16 @@ mark {
     float: none;
     text-align: left; } }
 
+  @media screen and (max-width: 1199px) {
+  body {
+    padding: 1rem 2%; } }
+
+  @media screen and (max-width:  750px) {
+  .container .side {
+    position: static;
+    width: 95%;
+    margin: 0 auto; }
+	
   .container .main {
     position: static;
     margin-left: 0;
