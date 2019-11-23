@@ -288,8 +288,9 @@ mark {
     float: none;
     text-align: left; } }
 
-@media screen and (min-width: 768px) and (max-width: 959px) {
-    #page{ width: 900px; }#content,.div1{width: 620px;}#secondary{width:220px}select{max-width:180px}
+@media screen and (max-width: 1034px) {
+  body {
+    padding: 1rem 8%; } }
 
 @media screen and (max-width: 	750px) {
   .container .side {
