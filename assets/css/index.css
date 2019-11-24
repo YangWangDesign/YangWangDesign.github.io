@@ -294,12 +294,12 @@ mark {
 
   @media screen and (max-width:  750px) {
   .container .side {
-    position: static;
+    position: relative;
     width: 95%;
     margin: 0 auto; }
 	
   .container .main {
-    position: static;
+    position: relative;
     margin-left: 0;
     width: 95%;
     margin: 0 auto;
