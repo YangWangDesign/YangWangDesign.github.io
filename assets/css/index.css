@@ -97,8 +97,7 @@ div#cv_main ul#nav li a{
 }
 
 div#cv_main ul#nav li a:hover{
-	text-decoration:underline;
-
+	color: #00BFFF;
 }
 
 .container .side {
