@@ -307,7 +307,7 @@ mark {
 
   #nav-m {
     display: none;
-    position: fixed;
+    position: relative;
     width: 28px;
     height: 28px;
     right: 10px;
