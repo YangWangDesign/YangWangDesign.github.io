@@ -85,8 +85,8 @@ div#cv_main ul#nav li{
     /* width: 120px; */
     /* font-size: 20px; */
     	margin: 0px;
-    	margin-left: auto;
-    	margin-right: auto;
+    	margin-left: 0.01%;
+    	margin-right: 0.01%;
 }
 
 div#cv_main ul#nav li a{
