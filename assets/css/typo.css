@@ -126,11 +126,10 @@ sub {
 
 /* 让链接在 hover 状态下显示下划线 */
 a {
-  color: #1abc9c;
+  color: #08c;
 }
 
 a:hover {
-  text-decoration: underline;
   color: #00BFFF;
 }
 
