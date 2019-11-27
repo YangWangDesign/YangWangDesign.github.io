@@ -69,6 +69,7 @@ div#cv_main {
 	background-color: #13294b;
 	/*margin: 50px auto 30px auto;*/
 	border-width: 0 0 2px;
+	border-color: #00b6f0;
 	position: fixed;
 	text-align:left;
 	width: 100%;
