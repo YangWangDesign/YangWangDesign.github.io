@@ -20,9 +20,6 @@ body {
 .navbar-fixed-top, .navbar-fixed-bottom {
         position: fixed;
 }
-.navbar {
-	border: 1px solid transparent;
-}
 .border-left {
     border-left: 1px solid #ddd;
     padding-left: 12px;
