@@ -59,26 +59,13 @@ h33 {
 /* -------------------------------------------------
  * 主体部分
  * ------------------------------------------------- */
-div#cv_main {
-	background-color: #000f3a;
-	/*margin: 50px auto 30px auto;*/
-	right: 0;
-        left: 0;
-	position: relative;
-	text-align:left;
-	width: 100%;
-  	padding: 0.6rem 5%;
-	margin-right: .3em;
-  	box-sizing: border-box;
-	position:relative;}
-	.navbar-default {
-	border-width: 0 0 2px;
-}
-.navbar-fixed-top, .navbar-fixed-bottom {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 div#cv_main ul#nav{
