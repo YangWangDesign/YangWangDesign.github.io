@@ -72,7 +72,6 @@ div#cv_main {
 }
 .navbar-fixed-top {
     top: 0;
-    border-color:#00144d;
     border-width: 0 0 2px;
 }
 .navbar-fixed-top,
@@ -81,6 +80,8 @@ div#cv_main {
   right: 0;
   left: 0;
   z-index: 1030;
+  border-color:#00144d;
+  border-width: 0 0 2px;
 }
 
 div#cv_main ul#nav{
