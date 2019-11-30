@@ -307,7 +307,7 @@ mark {
     max-height: 200px;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
