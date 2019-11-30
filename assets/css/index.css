@@ -68,11 +68,11 @@ div#cv_main {
 	margin-right: .3em;
   	box-sizing: border-box;}
 .navbar-default {
-	border-color:#00144d;
 	border-width: 0 0 2px;
 }
 .navbar-fixed-top {
     top: 0;
+    border-color:#00144d;
     border-width: 0 0 2px;
 }
 .navbar-fixed-top,
