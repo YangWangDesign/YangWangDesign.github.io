@@ -300,6 +300,16 @@ mark {
   .container .main .info-unit ul li h3 time {
     float: none;
     text-align: left; } }
+
+@media screen and (max-width: 1199px) {
+  body {
+    padding: 1rem 2%; } }
+
+@media screen and (max-width:  750px) {
+  .container .side {
+    position: relative;
+    width: 95%;
+    margin: 0 auto; }
 	
   .container .main {
     position: relative;
