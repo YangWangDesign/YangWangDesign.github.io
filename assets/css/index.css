@@ -5,7 +5,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  padding: 1rem 17%;
+  padding: 0rem 17%;
   padding-bottom: 0;
   box-sizing: border-box;
   font-size: .9em; }
@@ -65,7 +65,7 @@ h33 {
 div#cv_main {
 	background-color: #000f3a;
 	/*margin: 50px auto 30px auto;*/
-	position: fixed;
+	position: relative;
 	text-align:left;
 	width: 100%;
   	padding: 0.6rem 5%;
