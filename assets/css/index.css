@@ -65,7 +65,8 @@ div#cv_main {
 	text-align:left;
 	width: 100%;
   	padding: 0.6rem 19%;
-	margin-right: .3em;}
+	margin-right: .3em;
+	box-sizing: border-box;}
 .navbar-default {
 	background-color: #000f3a;
 	border-color:#00144d;
