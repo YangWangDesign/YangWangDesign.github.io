@@ -306,6 +306,14 @@ mark {
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
   @media screen and (max-width: 1199px) {
   body {
