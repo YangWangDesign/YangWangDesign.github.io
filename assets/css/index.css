@@ -61,14 +61,14 @@ h33 {
  * ------------------------------------------------- */
 div#cv_main {
 	background-color: #000f3a;
-	border-color:#00144d;
 	/*margin: 50px auto 30px auto;*/
 	text-align:left;
 	width: 100%;
   	padding: 0.6rem 19%;
 	margin-right: .3em;
   	box-sizing: border-box;}
-	.navbar-default {
+.navbar-default {
+	border-color:#00144d;
 	border-width: 0 0 2px;
 }
 .navbar-fixed-top {
