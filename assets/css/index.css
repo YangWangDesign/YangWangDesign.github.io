@@ -308,7 +308,7 @@ mark {
 @media screen and (max-width:  768px) {
   .container .side {
     position: static;
-    width: 95%;
+    width: 100%;
     margin: 0 auto; }
 	
   .container .main {
