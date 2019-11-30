@@ -311,6 +311,12 @@ mark {
     width: 95%;
     margin: 0 auto; }
 	
+@media (min-width: 768px) {
+  .navbar-static-top {
+    border-radius: 0;
+  }
+}
+	
   .container .main {
     position: relative;
     margin-left: 0;
