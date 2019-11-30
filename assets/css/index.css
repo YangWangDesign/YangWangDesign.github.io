@@ -303,19 +303,13 @@ mark {
 
 @media screen and (max-width: 1199px) {
   body {
-    padding: 1rem 5%; } }
+    padding: 1rem 2%; } }
 
 @media screen and (max-width:  768px) {
   .container .side {
-    position: static;
+    position: relative;
     width: 95%;
     margin: 0 auto; }
-	
-@media (min-width: 768px) {
-  .navbar-static-top {
-    border-radius: 0;
-  }
-}
 	
   .container .main {
     position: relative;
