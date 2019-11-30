@@ -60,6 +60,10 @@ h33 {
  * 主体部分
  * ------------------------------------------------- */
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 2px;
+}
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
