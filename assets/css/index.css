@@ -61,6 +61,7 @@ h33 {
  * ------------------------------------------------- */
 div#cv_main {
 	background-color: #000f3a;
+	border-color:#00144d;
 	/*margin: 50px auto 30px auto;*/
 	text-align:left;
 	width: 100%;
