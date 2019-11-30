@@ -17,9 +17,6 @@ body {
       font-weight: 700; }
     body .info-unit h3 {
       font-weight: 300; }
-.navbar-fixed-top, .navbar-fixed-bottom {
-        position: fixed;
-}
 .border-left {
     border-left: 1px solid #ddd;
     padding-left: 12px;
@@ -77,7 +74,12 @@ div#cv_main {
 	.navbar-default {
 	border-width: 0 0 2px;
 }
-
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 div#cv_main ul#nav{
 	color:#555;
