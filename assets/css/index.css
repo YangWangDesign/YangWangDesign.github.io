@@ -59,7 +59,17 @@ h33 {
 /* -------------------------------------------------
  * 主体部分
  * ------------------------------------------------- */
-
+div#cv_main {
+	background-color: #000f3a;
+	/*margin: 50px auto 30px auto;*/
+	text-align:left;
+	width: 100%;
+  	padding: 0.6rem 5%;
+	margin-right: .3em;
+  	box-sizing: border-box;}
+	.navbar-default {
+	border-width: 0 0 2px;
+}
 .navbar-fixed-top {
     top: 0;
     border-width: 0 0 2px;
