@@ -67,16 +67,14 @@ div#cv_main {
 	background-color: #000f3a;
 	border-color:#00144d;
 }
-.navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 2px;
-}
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
+  top: 0;
+  border-width: 0 0 2px;
 }
 
 div#cv_main ul#nav{
