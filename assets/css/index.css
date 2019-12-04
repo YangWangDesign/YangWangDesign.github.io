@@ -21,10 +21,6 @@ body {
     border-left: 1px solid #ddd;
     padding-left: 12px;
 }
-.navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 2px;
-}
 /* -------------------------------------------------
  * 头部部分
  * ------------------------------------------------- */
