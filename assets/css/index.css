@@ -57,6 +57,7 @@ h33 {
  * ------------------------------------------------- */
 div#cv_main {
 	background-color: #000f3a;
+	background: transparent
 	/*margin: 50px auto 30px auto;*/
 	text-align:left;
 	width: 100%;
