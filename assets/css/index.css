@@ -64,7 +64,7 @@ div#cv_main {
 	/*margin: 50px auto 30px auto;*/
 	text-align:left;
 	width: 100%;
-  	padding: 0.6rem 19%;
+  	padding: 0.8rem 19%;
 	margin-right: .3em;
 	box-sizing: border-box;}
 .navbar-default {
@@ -94,7 +94,7 @@ div#cv_main ul#nav{
 
 div#cv_main ul#nav li{
 	float:left;
-	padding: 8px 13px;
+	padding: 8px 8px;
 	text-align:center;
     /* width: 120px; */
     /* font-size: 20px; */
