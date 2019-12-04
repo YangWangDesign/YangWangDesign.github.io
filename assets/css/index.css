@@ -63,13 +63,13 @@ div#cv_main {
   	padding: 0.5rem 19.5%;
 	margin-right: .3em;
 	box-sizing: border-box;}
-.navbar-default {
-	background-color: #000f3a;
-	border-color:#00144d;
-}
 .navbar-fixed-top {
     	top: 0;
     	border-width: 0 0 2px;
+}
+.navbar-default {
+	background-color: #000f3a;
+	border-color:#00144d;
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
