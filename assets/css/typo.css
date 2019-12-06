@@ -129,10 +129,7 @@ a {
   color: #08c;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #FFB400;
-}
+
 
 .typo a {
   border-bottom: 1px solid #1abc9c;
